@@ -8,6 +8,12 @@ const HeadData = () => {
         name='description'
         content='Sevit is a REST API that gives access to web3 with just an http request'
       />
+      <link rel='preconnect' href='https://fonts.googleapis.com' />
+      <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
+      <link
+        href='https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap'
+        rel='stylesheet'
+      ></link>
     </Head>
   )
 }

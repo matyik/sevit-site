@@ -1,7 +1,7 @@
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx}',
-    './components/**/*.{js,ts,jsx,tsx}'
+    './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
     extend: {
@@ -10,9 +10,12 @@ module.exports = {
         secondary: '#27272b',
         background: '#1d1d20',
         primary: '#0d93f2',
-        border: 'hsla(0,0%,100%,0.06)'
-      }
-    }
+        border: 'hsla(0,0%,100%,0.06)',
+      },
+      fontFamily: {
+        'inter-bold': ['Inter', 'sans-serif'],
+      },
+    },
   },
-  plugins: []
+  plugins: [],
 }
