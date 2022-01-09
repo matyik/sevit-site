@@ -27,8 +27,8 @@ const Docs = ({ HOST_URL }) => {
             Sevit lets you use web3 functionality through a REST API. Access the
             Ethereum network without having your own web3 provider - Sevit
             handles it all on the back-end. Get things like the owner of an NFT,
-            get an address's balance, resolve an ENS name, call smart contract
-            functions, and more.
+            get an address&apos;s balance, resolve an ENS name, call smart
+            contract functions, and more.
           </p>
           <h2 className='text-3xl'>Authentication</h2>
           <p>
