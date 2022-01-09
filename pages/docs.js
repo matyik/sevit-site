@@ -44,7 +44,7 @@ const Docs = ({ HOST_URL }) => {
             </span>
           </p>
           <h2 className='text-3xl'>Basic Requests</h2>
-          <div className='flex gap-x-8 w-full'>
+          <div className='flex gap-x-8 w-full' id='balance'>
             <h4 className='text-green-700 text-lg font-bold'>GET</h4>
             <h4 className='text-lg font-bold'>Get Address Balance</h4>
             <span
@@ -67,7 +67,7 @@ const Docs = ({ HOST_URL }) => {
             https://api.sevit.dev/balance/&#123;address&#125;
           </span>
           <p>Returns the balance of an address in wei.</p>
-          <div className='flex gap-x-8 w-full'>
+          <div className='flex gap-x-8 w-full' id='ens'>
             <h4 className='text-green-700 text-lg font-bold'>GET</h4>
             <h4 className='text-lg font-bold'>Resolve ENS Name</h4>
             <span
@@ -90,7 +90,7 @@ const Docs = ({ HOST_URL }) => {
             https://api.sevit.dev/ens/&#123;name&#125;
           </span>
           <p>Returns the address an Ethereum Name Service name resolves to.</p>
-          <div className='flex gap-x-8 w-full'>
+          <div className='flex gap-x-8 w-full' id='gas'>
             <h4 className='text-green-700 text-lg font-bold'>GET</h4>
             <h4 className='text-lg font-bold'>Get Gas Price</h4>
             <span
@@ -113,7 +113,7 @@ const Docs = ({ HOST_URL }) => {
             https://api.sevit.dev/gasprice
           </span>
           <p>Returns the current gas price in wei.</p>
-          <div className='flex gap-x-8 w-full'>
+          <div className='flex gap-x-8 w-full' id='transaction'>
             <h4 className='text-green-700 text-lg font-bold'>GET</h4>
             <h4 className='text-lg font-bold'>Get Transaction</h4>
             <span
@@ -158,7 +158,7 @@ const Docs = ({ HOST_URL }) => {
           </span>
           <p>Returns the details of a transaction.</p>
           <h2 className='text-3xl'>Smart Contracts</h2>
-          <div className='flex gap-x-8 w-full'>
+          <div className='flex gap-x-8 w-full' id='contract'>
             <h4 className='text-yellow-600 text-lg font-bold'>POST</h4>
             <h4 className='text-lg font-bold'>Call Smart Contract Function</h4>
             <span

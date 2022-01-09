@@ -15,7 +15,9 @@ const Header = ({ HOST_URL }) => {
       <span className='text-blue-100 gap-x-4 flex'>
         <Link href={`${HOST_URL}/docs`}>Docs</Link>
         <Link href='#pricing'>Pricing</Link>
-        <a href='https://rapidapi.com'>RapidApi</a>
+        <a href='https://rapidapi.com/matykari@gmail.com/api/sevit/'>
+          RapidApi
+        </a>
       </span>
     </nav>
   )
